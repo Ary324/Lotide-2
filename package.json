@@ -1,7 +1,7 @@
 {
-  "name": "lotide2",
+  "name": "@arian324/lotide2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide Library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Ary324/Lotide-2.git"
   },
-  "author": "",
+  "author": "Arian Abedanzadeh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ary324/Lotide-2/issues"
@@ -22,5 +22,8 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.0.3"
+  },
+  "dependencies": {
+    "my-package": "^0.0.0"
   }
 }
