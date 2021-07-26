@@ -4,7 +4,7 @@ const tail = function(arr) {
   } else if (arr.length === 1) {
     return "";
   } else {
-    let updatedArray = arr.splice(0,1);
+    let updatedArray = arr.slice(1);
     return updatedArray;
   }
 };
